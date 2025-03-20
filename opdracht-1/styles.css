@@ -1,0 +1,74 @@
+/* row (justify-content is horizontaal) column justify-content is verticaal*/
+/* Opdracht 1*/
+
+.opdracht1{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Opdracht 2*/
+.list-opdracht-2 {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Opdracht 3*/
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-between;
+}
+.list-opdracht-3-2{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+.list-opdracht-3-3{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+/* Opdracht 4*/
+
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Opdracht 5*/
+
+
+.c1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.column3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
